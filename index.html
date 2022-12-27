@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!-- Author: Harshadkumar Patel, Student ID 000852665 -->
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Summer Camp by Harshadkumar Patel</title>
+	<link rel="stylesheet" type="text/css" href="css/FinalF21_Version1_Harshadkumar.css">
+</head>
+
+<body>
+	<header>
+		<h1>McMaster University Youth Programs</h1>
+	</header>
+	<main>
+		<h2>Venture Academy</h2>
+		<table class="schedule">
+			<h2>Venture Academy</h2>
+			<colgroup>
+
+			</colgroup>
+			<thead>
+				<tr>
+					<th>Select a Program</th>
+					<th>Robotics</th>
+					<th>Engineering</th>
+					<th>Science</th>
+					<th>Coding</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>Jun29-July03*</th>
+					<td>$200</td>
+					<td>$190</td>
+					<td>$180</td>
+					<td>$250</td>
+				</tr>
+				<tr>
+					<th>Jul13-July17</th>
+					<td>$250</td>
+					<td>$230</td>
+					<td>$200</td>
+					<td>$300</td>
+				</tr>
+				<tr>
+					<th>Jul20-July24</th>
+					<td>$250</td>
+					<td>$230</td>
+					<td>$200</td>
+					<td>$300</td>
+				</tr>
+				<tr>
+					<th>Jul27-July31</th>
+					<td>$250</td>
+					<td>$230</td>
+					<td>$200</td>
+					<td>$300</td>
+				</tr>
+				<tr>
+					<th>Aug17-Aug21</th>
+					<td>$250</td>
+					<td>$230</td>
+					<td>$200</td>
+					<td>$300</td>
+				</tr>
+				<tr>
+					<th>Summary</th>
+					<td>Create your very own robots and foster your STEM skill by programming a robot.</td>
+					<td>Create engineering artifacts from design to prototyping.</td>
+					<td>Explore the dimensions of science with hands-on experiments in a safe environment.</td>
+					<td>Coding is the new cool! In this course you will learn Python programming.</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="5">Short week*</td>
+				</tr>
+			</tfoot>
+			<caption>Schedule</caption>
+		</table>
+
+		<aside>
+			<ul>
+				<li>
+					<strong>Nut free policy:</strong> We are nut-free zone, please pack nut-free lunches & snacks for
+					your child.
+				</li>
+				<li><strong>Family discount:</strong> Subtract $10/week per additional child, if registering two or more
+					children from the same family for the same week. First child is full price.
+				</li>
+				<li><strong>Multi session discount:</strong> Subtract $10/week per additional week. First week is full
+					price.
+				</li>
+				<li><strong>Extended care (optional):</strong> Extended care is available for 1 hour before or after
+					regular time/day, $25 for regular week and $20 for short week can be paid at the time of
+					registration.
+					Regular drop-off is between 8:45 am-9 am. Before care is available from 8:00 am-8:45 am for $5 /day
+					per camper. Regular pick-up is between 4 PM – 4:15 PM After care is available from 4:15-5:00 pm for
+					$5 /day per camper.Additional late fees apply to pick-ups after 5 pm $20/10 min beyond 5:00 pm.</li>
+			</ul>
+			<div>
+				<p>Learn more</p>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/2H0j03EvlEU"
+					title="YouTube video player" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+			</div>
+		</aside>
+		<div class="container">
+			<h2>Join Our VIP Mailing List</h2>
+			<form method="post" action="https://csunix.mohawkcollege.ca/tooltime/showit.pl">
+				<fieldset>
+					<legend>Select the Program of Interest</legend>
+					<label>Program</label>
+					<select id="pro" name="program">
+						<option>Robotics </option>
+						<option>Science Zone</option>
+						<option>Cool Coder</option>
+						<option>Web Developers</option>
+						<option>Multiple Programs</option>
+					</select>
+				</fieldset>
+				<fieldset>
+					<legend>Parent's Details (Required*)</legend>
+					<label for="email">Email*</label>
+					<input type="email" name="emailaddress" id="email" placeholder="yourEmail@mohawkcollege.ca"
+						class="textbox">
+					<label for="phone">Phone#*</label>
+					<input type="tel" name="phonenumber" id="phone" placeholder="000 000 0000" class="textbox"
+						maxlength="12" required>
+				</fieldset>
+				<fieldset>
+					<legend>Child's Details (Required*)</legend>
+					<label for="Firstname">First Name*</label>
+					<input type="text" name="fname" id="Firstname" required="" class="textbox">
+
+					<label for="lastname">Last Name</label>
+					<input type="text" name="lname" id="lastname" required="" class="textbox">
+					<label>Gender</label>
+					<div class="gender">
+						<label for="male">Male</label>
+						<input type="radio" value="male" name="gender" id="gen" checked="checked">
+						<label for="female">Female</label>
+						<input type="radio" value="female" name="gender" id="gen">
+					</div>
+					<label>Age</label>
+					<select id="age" name="age">
+						<option>4-12 years </option>
+						<option>6-12 years</option>
+						<option>12-15 years</option>
+					</select>
+				</fieldset>
+				<fieldset>
+					<legend>Does your child have allergies or any other medical condition?</legend>
+					<div>
+						<input type="checkbox" id="no" name="no" value="no">
+						<label for="no">No</label>
+					</div>
+
+					<div>
+						<input type="checkbox" id="yes" name="yescompletethemediacalform"
+							value="yescompletethemediacalform">
+						<label for="yes">Yes (Complete the medical form)</label>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>Comments/Questions</legend>
+					<textarea cols="50" rows="5" name="questions"
+						placeholder="Please enter questions or comments here"></textarea>
+				</fieldset>
+				<input type="submit" value="Join">
+				<input type="reset" value="Clear">
+
+			</form>
+	</main>
+	<footer>
+		<p>Created by Harshadkumar Patel(Student#000852665)</p>
+	</footer>
+
+</body>
+
+</html>
